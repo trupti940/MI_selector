@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earphones Layout</title>
+    <!-- Link to external stylesheet -->
+    <style>
+        /* Additional inline styles (if needed) */
+        body{
+            margin: auto
+        }
+        .products-container {
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow wrapping of items */
+            justify-content: center; /* Distribute items evenly */
+            gap: 2px; /* Spacing between items */
+            padding: 20px; /* Padding around the container */
+            margin-right: auto;
+        }
+        .container {
+            width: 300px; /* Adjusted width for each product */
+            border: 1px solid #ccc;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box; /* Include padding and border in width */
+            margin:5px;
+            height: 300px;
+        }
+        h2{
+            margin-left: 0px;
+        }
+        .price {
+            margin-top: 60px; /* Added margin top for price section */
+            margin-left: 0px
+        }
+        .image img{
+            max-width: 70px; /* Ensures images are responsive */
+            height: 100px;
+        }
+        .charger-container {
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow wrapping of items */
+            justify-content: center; /* Distribute items evenly */
+            gap: 2px; /* Spacing between items */
+            padding: 20px; /* Padding around the container */
+            margin-right: auto;
+        }
+        .inner-charger {
+            width: 300px; /* Adjusted width for each product */
+            border: 1px solid #ccc;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box; /* Include padding and border in width */
+            margin:5px;
+            height: 350px;
+        }
+        h2{
+            margin-left: 0px;
+        }
+        .charger-price {
+            margin-top: 60px; /* Added margin top for price section */
+            margin-left: 0px;
+        }
+        .charger-image img{
+            max-width: 70px; /* Ensures images are responsive */
+            height: 100px;
+            margin-right: 0px;
+        }
+
+        .image-container {
+            position: relative;
+            display: flex;
+            margin-right: 5px;
+            margin-left: 40px;
+            height:auto;
+        }
+
+    .image-container img {
+        display: block;
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 50%;
+        left:20%;
+        transform: translate(-50%, -50%);
+        color: black;
+        background-color: transparent; /* Optional background for readability */
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .text-overlay>button{
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        width: 400x;
+        height: 25px;
+        padding:10px;
+        margin: 0px;
+    }
+
+    </style>
+</head>
+<body>
+    <section class="products-container">
+        <div class="container">
+            <h2>Redmi Earphones</h2>
+            <div>
+                <p>25% off</p>
+            </div>
+            <div class="price">
+                <span class="current-price">₹449</span>
+                <div class="original-price">₹599</div>
+            </div>
+            <div class="image">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTdZZ7g_FIfE5CLMzCeo0_s9Y4mDMr2vjSJR85ex-dMeXg60mpC" alt="Earphones">
+            </div>
+        </div>
+        <div class="container">
+            <h2>Mi Dual Driver in-ear Earphones</h2>
+            <div>
+                <p>20% off</p>
+            </div>
+            <div class="price">
+                <span class="current-price">₹799</span>
+                <div class="original-price">₹999</div>
+            </div>
+            <div class="image">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTdZZ7g_FIfE5CLMzCeo0_s9Y4mDMr2vjSJR85ex-dMeXg60mpC" alt="Earphones">
+            </div>
+        </div>
+        <div class="container">
+            <h2>Redmi Sonic Bass Wireless Earphones 2</h2>
+            <div>
+                <p>56% off</p>
+            </div>
+            <div class="price">
+                <span class="current-price">₹1,299</span>
+                <div class="original-price">₹2,999</div>
+            </div>
+            <div class="image">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQrv7cR5d2sBqMbg7TIUwwYiGzl8YFwJeb7Nb6DeHVuxG58kxV9" alt="Earphones">
+            </div>
+        </div>
+        <div class="container">
+            <h2>MI Portable Bluetooth Speaker(16W)</h2>
+            <div>
+                <p>28% off</p>
+            </div>
+            <div class="price">
+                <span class="current-price">₹2,499</span>
+                <div class="original-price">₹3,999</div>
+            </div>
+            <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRecmxmpmMj4VKXdqabw7w5Uvp9d7O3gb-p0GyfFyHgBspJ_tD_" alt="Earphones">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="image-container">
+        <img src="https://i03.appmifile.com/457_operator_in/28/06/2024/d9863fb526a66752e02e6c6c0b0ae910.png?thumb=1&amp;w=1680&amp;q=85" alt="Descriptive Alt Text">
+        <div class="text-overlay">
+            <h3>Save Up to 65%</h3>
+            <h3>On Chargers & Cables</h3>
+            <p>Free Delivery on All Products</p>
+            <button>BuyNow</button>
+        </div>
+    </div>
+
+    <section class="charger-container">
+        <div class="inner-charger">
+            <h2>Xiaomi 120W HyperCharge Adapter...</h2>
+            <div>
+                <p>50% off</p>
+            </div>
+            <div class="charger-price">
+                <span class="current-price">₹2,999</span>
+                <div class="original-price">₹5,999</div>
+            </div>
+            <div class="charger-image">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmk7GrHkKkarlaWCV0-w4IvWCkaYCeX0ZWnWRVtIO1VTvnWYkr" alt="Earphones">
+            </div>
+        </div>
+        <div class="inner-charger">
+            <h2>Mi 2A Fast Charger with Cable</h2>
+            <div>
+                <p>25% off</p>
+            </div>
+            <div class="charger-price">
+                <span class="current-price">₹499</span>
+                <div class="original-price">₹599</div>
+            </div>
+            <div class="charger-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQboQoz68Tq4xfZHzLvocTHj88i82b-Mcfi7nLh6x7V7LKogklV" alt="Earphones">
+            </div>
+        </div>
+        <div class="inner-charger">
+            <h2>Xiaomi SonicCharge 2.0 Cable</h2>
+            <div>
+                <p>64% off</p>
+            </div>
+            <div class="charger-price">
+                <span class="current-price">₹249</span>
+                <div class="original-price">₹699</div>
+            </div>
+            <div class="charger-image">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRoFvms2SwCIpcUchwTw0pWYBrsuwgPcUPBkxumarRWa2st3ruc" alt="Earphones">
+            </div>
+        </div>
+        <div class="inner-charger">
+            <h2>MI 18W Dual Port Charger + MI USB Cable 120cm...</h2>
+            <div>
+                <p>35% off</p>
+            </div>
+            <div class="charger-price">
+                <span class="current-price">₹899</span>
+                <div class="original-price">₹1,397</div>
+            </div>
+            <div class="charger-image">
+                <img src="https://rukminim2.flixcart.com/image/416/416/k3hmj680/mobile-accessories-combo/q/d/b/wall-charger-accessory-combo-forredmi-5a-3-webilla-original-imafmht5rghzakaq.jpeg?q=70&crop=false" alt="Earphones">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
